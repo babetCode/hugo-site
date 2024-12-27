@@ -1,0 +1,31 @@
+baseURL: "https://adrienbabet.com/"
+languageCode: "en-us"
+title: "Babet's Site"
+theme: "hextra"
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo.png
+      link: /
+      width: 40
+      height: 20
+    favicon: "images/logo.png"
+menu:
+  main:
+    - name: Projects
+      pageRef: /projects
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 2
+    - name: Search
+      weight: 3
+      params:
+        type: search
+    - name: GitHub
+      weight: 4
+      url: "https://github.com/babetcode"
+      params:
+        icon: github

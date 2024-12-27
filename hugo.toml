@@ -1,6 +1,0 @@
-baseURL = 'https://adrienbabet.com/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'hextra'
-logo = "images/logo.png"
-favicon = "images/favicon.ico"
